@@ -1,3 +1,7 @@
+"""
+A demo for the app: 
+"""
+
 class HealthUser:
     """
     A class that encapsulates the progress of a user by quantifying the progression of their desired process
@@ -5,10 +9,10 @@ class HealthUser:
     def __init__(self, name: str, age: int, weight: float, exercise: int, diet: int, sleep: int ):
         self.name = name
         self.age = age
-        self.weight = 0
-        self.exercise = 0
-        self.diet = 0
-        self.sleep = 0
+        self.weight = weight # percentage of their target weight
+        self.exercise = exercise # percentage of their target exercise habit
+        self.diet = diet # percentage of their target diet habit
+        self.sleep = sleep # percentage of their target sleep habit
     
     def __str__(self):
         return f'{self.name}({self.age})'
@@ -66,20 +70,12 @@ def how_exercise(response: str) -> int: # Place holder function for a language m
     return points
 
 
-p1 = HealthUser("Shoun", 21, 0,0,0,0) 
+p0 = HealthUser("Shoun", 20, 100, 0, 0, 0)          # registered a user for a complete lifstyle change
+p1 = HealthUser("Edward", 23, 100, 10, 0, 10)       # registered a user to transition to a better diet
+p2 = HealthUser("Diego", 24, 100, 5, 10, 10)        # registered a user for a change in exercise process
+p3 = HealthUser("Ethan", 21, 120, 10, 10, 10)       # registered a user for a slight increase in over all lifestyle to lose weight
 
+print(p0 , "weight: " , p0.get_weight())
 print(p1 , "weight: " , p1.get_weight())
-
-diet_ans = input("How was your diet? ")
-exer_ans = input("How was your exercise? ")
-
-prog_diet = how_diet(diet_ans)
-prog_exer = how_exercise(exer_ans)
-
-p1.set_diet(prog_diet)
-p1.set_exercise(prog_exer)
-
-print(p1.get_diet())
-print(p1.get_exercise())
-
-
+print(p2 , "weight: " , p2.get_weight())
+print(p3 , "weight: " , p3.get_weight())
