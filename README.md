@@ -1,7 +1,7 @@
 # Hackathon-Project
 
 ### promt: Design a project focused on transitions
-#### The problem of focus: Technology can do alot, but it can't make a person pursue their dreams for them. What it can do with the innovaitons of gpt 4 is to facilitate and monitor the progress made by a person and quatify them for easier visualization
+#### The problem of focus: Technology can do alot, but it can't make a person pursue their dreams for them. How can the technology we have help us transition into a healthier lifestyle?
 ### Solution: A health tracker that quantifies the users progress 
 #### This solutions is to aid those that are afraid that they will stray from the path of progress
 
@@ -18,4 +18,8 @@ How does this program collect data?
 Why should people use this app?
 - Quantifying progress is very important to facilitate transitions. Allowing users to see how far they have come can provide the proper contrast that one needs to realize the progress they have made.
 
-## Future of the project
+## Innnovation: 
+The choice to transition into a healthier lifestyle is a choice made everyday by a person. The daily use of the app will encourage the user to see the results of their daily choices imediately, as habits are often unseen by the person that has that habit. 
+
+## Future of the project:
+The most significant element in progress is accountanility, a way to 'socialize' to other people can encourage more mass of people to pursue a healthier lifestyle creating a new wave of a postive realtionship between social apps and users.
