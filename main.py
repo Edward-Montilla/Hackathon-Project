@@ -45,17 +45,22 @@ p1 = HealthUser("Diego", 24, 100, 5, 10, 10)
 # registered a user for a slight increase in over all lifestyle to lose weight
 p2 = HealthUser("Ethan", 21, 120, 10, 10, 10)
 
-# day 0 *users that have registered at different times are to be accounted for in the production version
+# day 0 users that have registered at different times are to be accounted for in the production version
 user = {
     'Sleep': 0,
     'Diet': 0,
     'Exercise': 0
 }
 
+# Making the HealthData objects for each user.
+# each object is a dataframe
 dfp0 = hd(user)
 dfp1 = hd(user)
 dfp2 = hd(user)
 
+# Hardcoded code for simulation from day 1 to day 7.
+# each day simulates user's input
+# Sleep, Diet, and Exercise are then added to a list and then we add the list as a row to the user's dataframe
 #  day 1
 p0.set_diet(3)
 p0.set_exercise(5)
@@ -217,6 +222,8 @@ dfp2.add(day1)
 
 ####################################################################
 # Edward
+# setting the graph for each user to display the sleep, diet and exercise
+# this block is also simulated to display the graph
 x1_values = list(range(len(dfp0.getCol('Sleep'))))
 y1_values = dfp0.getCol('Sleep')
 
