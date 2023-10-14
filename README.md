@@ -8,7 +8,8 @@ The solution for the prompt is simple, track the progress made by the user and r
 
 What is the data that the program collects?
 - The program collects the emotions of the users based on the changes the want to implement to complete their transition into a healthier lifestyle.
-  *This part of the program is to be insterfaced with gpt 4 as the semantic langauge model can more accurately gauge the emotional words used by the user to describe their journey to forming new habits*
+ <br> *This part of the program is to be insterfaced with gpt 4 as the semantic langauge model can more accurately gauge the emotional words used by the user to describe their journey to forming new habits*
 
 How does this program collect those data?
-- The program will rely of the users' honesty and 
+- The program will rely of the users' honesty and consistency to update their daily progress.
+- The main reason for interfacing with gpt 4's language model is to provide the user an automated journalist and to provide encouragement based on their quantified 
