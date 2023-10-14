@@ -41,7 +41,6 @@ class HealthUser:
     def get_sleep(self) -> int:
         return self.sleep
 
-class d
 
 def how_diet(response: str) -> int: # Place holder for a language model like GPT 4
     points = 0
