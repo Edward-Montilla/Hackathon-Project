@@ -1,6 +1,6 @@
 # Hackathon-Project
 
-### promt: Design a project focused on transitions
+### prompt: Design a project focused on transitions
 #### The problem of focus: Technology can do alot, but it can't make a person pursue their dreams for them. How can the technology we have help us transition into a healthier lifestyle?
 ### Solution: A health tracker that quantifies the users progress 
 #### This solutions is to aid those that are afraid that they will stray from the path of progress
